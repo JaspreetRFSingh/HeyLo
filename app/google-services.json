@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "276563215013",
+    "firebase_url": "https://demoprojects-1b91f.firebaseio.com",
+    "project_id": "demoprojects-1b91f",
+    "storage_bucket": "demoprojects-1b91f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276563215013:android:05f51111f1e84961",
+        "android_client_info": {
+          "package_name": "com.jstech.heylo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276563215013-50rfrdb0mt6r90titnudqgsru1stp431.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "276563215013-50rfrdb0mt6r90titnudqgsru1stp431.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj4hW-Epk5-a79cPPGFmRnXoemywDKeQo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HeyLo!</string>
+    <string name="login"><u>Already registered? Click here to login!</u></string>
+    <string name="register"><u>New user? Click here to register!</u></string>
+</resources>

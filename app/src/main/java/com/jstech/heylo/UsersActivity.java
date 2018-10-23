@@ -47,8 +47,8 @@ public class UsersActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         }
 
-        usersList = (ListView)findViewById(R.id.usersList);
-        noUsersText = (TextView)findViewById(R.id.noUsersText);
+        usersList = findViewById(R.id.usersList);
+        noUsersText = findViewById(R.id.noUsersText);
 
         pd = new ProgressDialog(UsersActivity.this);
         pd.setMessage("Loading...");
@@ -85,7 +85,7 @@ public class UsersActivity extends AppCompatActivity {
             JSONObject obj = new JSONObject(s);
 
             Iterator i = obj.keys();
-            String key = "";
+            String key;
 
             while(i.hasNext()){
                 key = i.next().toString();
@@ -108,7 +108,7 @@ public class UsersActivity extends AppCompatActivity {
         else{
             noUsersText.setVisibility(View.GONE);
             usersList.setVisibility(View.VISIBLE);
-            usersList.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, al));
+            usersList.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, al));
         }
 
         pd.dismiss();

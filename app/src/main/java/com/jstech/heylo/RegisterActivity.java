@@ -40,10 +40,10 @@ public class RegisterActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        username = (EditText)findViewById(R.id.usernameReg);
-        password = (EditText)findViewById(R.id.passwordReg);
-        registerButton = (Button)findViewById(R.id.registerButton);
-        login = (TextView)findViewById(R.id.login);
+        username = findViewById(R.id.usernameReg);
+        password = findViewById(R.id.passwordReg);
+        registerButton = findViewById(R.id.registerButton);
+        login = findViewById(R.id.login);
 
         Firebase.setAndroidContext(this);
 
